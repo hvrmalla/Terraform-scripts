@@ -1,0 +1,6 @@
+#Variables_webserver.tf
+variable "region_webserver" {default = "us-east-1"}
+variable "type_webserver" {default = "t2.micro"}
+variable "ami_webserver" {default = "ami-0aa2b7722dc1b5612"}
+
+#ubuntu@ip-172-31-86-43:~/p-terraform$
