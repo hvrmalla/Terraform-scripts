@@ -30,6 +30,7 @@ tags = {
     Name = "TerraEC"
   }
 }
+#------
 resource "aws_security_group" "instance" {
   name = "terraform-EC2"
   ingress {
